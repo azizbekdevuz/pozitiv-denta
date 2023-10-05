@@ -1,0 +1,456 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pozitiv Denta</title>
+    <!-- google font -->
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-tooth"></i>Pozitiv Denta
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto me-2 my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                            <div class="dropdown-content">
+                              <ul>
+                                <li> <a href="consultation.html">Get a consultation</a> </li>
+                                <li> <a href="services.html">Register a service</a> </li>
+                              </ul>
+                            </div>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultingZone.html">Consulting Zone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="newsSales.html">News & Sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <form action="#error" method="GET" class="d-flex search-header">
+                        <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
+                            required>
+                        <button class="btn btn-style" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- inner banner -->
+      <section class="inner-banner py-5">
+            <div class="w3l-breadcrumb py-lg-5">
+                <div class="container pt-4 pb-sm-4">
+                  <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">ORTHOPEDIC DENTISTRY</h4>
+                  <ul class="breadcrumbs-custom-path">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="consultingZone.html"><i class="fas fa-angle-right mx-2"></i>Consulting Zone</a></li>
+				<li class="active"><i class="fas fa-angle-right mx-2"></i>Orthopedic Dentistry</li>
+                  </ul>
+                </div>
+            </div>
+      </section>
+     <!-- //inner banner -->
+
+     <!--table-->
+     <h1 id="h1-mytbl">Orthopedic Dentistry</h1>
+     <div class="div-mytbl">
+      <table id="mytbl">
+        <thead id="mytbl">
+          <tr id="tr-mytbl">
+            <th id="th-mytbl" rowspan="2">Service</th>
+            <th id="th-mytbl" colspan="5">Sub-Services</th>
+          </tr>
+          <tr id="tr-mytbl">
+            <th id="th-mytbl">Name</th>
+            <th id="th-mytbl">Price (UZS)</th>
+            <th id="th-mytbl">Options</th>
+            <th id="th-mytbl">Registration</th>
+          </tr>
+        </thead>
+        <tbody id="body-mytbl">
+          <tr id="tr-mytbl">
+            <td id="tr-mytbl" rowspan="16">Orthopedic Dentistry</td>
+            <td id="td-mytbl">Shtifts</td>
+            <td id="price1">100.000</td>
+            <td id="td-mytbl">
+              <select id="options1" onchange="updatePrice(1)">
+                <option value="100.000">Standard</option>
+                <option value="150.000">Individual</option>
+                <option value="200.000">Fiberglass</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Metallic cover</td>
+            <td id="price2">120.000</td>
+            <td id="td-mytbl">
+              <select id="options2" onchange="updatePrice(2)">
+                <option value="120.000">Stamped</option>
+                <option value="150.000">Molten</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Metal-ceramic cover</td>
+            <td id="td-mytbl">250.000<br>-<br>400.000</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Silicone-ceramic cover</td>
+            <td id="td-mytbl">600.000<br>-<br>1.000.000</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Fully invert(insert)able plastic prothesis</td>
+            <td id="td-mytbl">1.000.000<br>-<br>1.500.000</td>
+            <td id="td-mytbl">(for each tooth)</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Partial invert(insert)able prothesis</td>
+            <td id="price3">800.000<br>-<br>3.500.000</td>
+            <td id="td-mytbl">(for each tooth)
+              <br>
+              <select id="options3" onchange="updatePrice(3)">
+                <option value="800.000">Plastic</option>
+                <option value="1.500.000">ATSETAL</option>
+                <option value="2.000.000">Solid NEYLON</option>
+                <option value="3.000.000">Byugel</option>
+                <option value="3.500.000">Telescopic</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Placing a healing bond in gum diseases</td>
+            <td id="td-mytbl">30.000/trip</td>
+            <td id="td-mytbl">No option reuired</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Treatment of tartar using SKELER</td>
+            <td id="price4">100.000</td>
+            <td id="td-mytbl">
+              <select id="options4" onchange="updatePrice(4)">
+                <option value="100.000">Level 1</option>
+                <option value="150.000">Level 2</option>
+                <option value="200.000">Level 3</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+            </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Dental bleaching</td>
+            <td id="td-mytbl">50.000/trip</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+            </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Restoration of filling defects, treatment of caries, pulpitis and periodontitis teeth</td>
+            <td id="price5">150.000</td>
+            <td id="td-mytbl">
+              <select id="options5" onchange="updatePrice(5)">
+                <option value="150.000">DENTLIGHT (Russia)</option>
+                <option value="200.000">ESCOM (Korea)</option>
+                <option value="250.000">CAPO (Germany)</option>
+                <option value="300.000">CHARISMA (USA)</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Restoration of the teeth</td>
+            <td id="td-mytbl">200.000<br>-<br>300.000</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Applying devitalizing paste to pulp teeth</td>
+            <td id="td-mytbl">40.000</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Treatment of gum disease by injection</td>
+            <td id="td-mytbl">25.000/trip</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Treatment of gum disease by PRF</td>
+            <td id="td-mytbl">50.000/trip</td>
+            <td id="td-mytbl">No option required</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Placing a healing bond in gum diseases</td>
+            <td id="td-mytbl">30.000/trip</td>
+            <td id="td-mytbl">No option reuired</td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+              </td>
+          </tr>
+          <tr id="tr-mytbl">
+            <td id="td-mytbl">Treatment of tartar using SKELER</td>
+            <td id="price6">100.000</td>
+            <td id="td-mytbl">
+              <select id="options6" onchange="updatePrice(6)">
+                <option value="100.000">Level 1</option>
+                <option value="150.000">Level 2</option>
+                <option value="200.000">Level 3</option>
+              </select>
+            </td>
+            <td id="td-mytbl">
+              <button id="btn-mytbl">Register</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+     </div>
+
+     <!--//table-->
+<br><br><br>
+          <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29 pt-5 pb-4">
+            <div class="container pt-md-4">
+                <div class="row footer-top-29">
+                    <div class="col-md-5 footer-list-29 pe-xl-5">
+                        <h6 class="footer-title-29">Contact Info </h6>
+                        <p class="mb-2 pe-xl-5">Address: Galakapa 3, Jomboy tumani markazi, Samarkand, Uzbekistan.
+                        </p>
+                        <p class="mb-2">Phone Number: <a href="tel:+998(97) 100 0103">+998 (97) 100 01-03</a></p>
+                        <p class="mb-2">Email: <a href="mailto:norkuzievural@gmail.com">norkuzievural@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">About</h6>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="fy.html">For you</a></li>
+                            <li><a href="cashback.html">Get a cashback</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-4 ps-lg-5 ps-md-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">Explore</h6>
+                            <li><a href="blogs.html">Blog Posts</a></li>
+                            <li><a href="comforts.html">Comforts</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#license">License & uses</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">Meet the team</h6>
+                            <li><a href="#doctor">Dr. U.Norkuziev</a></li>
+                            <li><a href="#doctor">Dr. Dilmurod</a></li>
+                            <li><a href="#doctor">Dr. Jasur</a></li>
+                            <li><a href="#doctor">Dr. Jahongir</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">© 2023 Pozitiv Denta.<!-- //copyright -->
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    </body>
+      <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+  </button>
+  <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+          scrollFunction()
+      };
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("movetop").style.display = "block";
+          } else {
+              document.getElementById("movetop").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <!-- //move top -->
+
+  <!-- common jquery plugin -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- //common jquery plugin -->
+
+  <!-- for services carousel slider -->
+  <script src="assets/js/owl.carousel.js"></script>
+  <script>
+      $(document).ready(function () {
+          $('.owl-three').owlCarousel({
+              loop: true,
+              stagePadding: 20,
+              margin: 20,
+              autoplay: true,
+              autoplayTimeout: 5000,
+              autoplaySpeed: 1000,
+              autoplayHoverPause: false,
+              nav: false,
+              responsive: {
+                  0: {
+                      items: 1
+                  },
+                  600: {
+                      items: 2
+                  },
+                  991: {
+                      items: 3
+                  },
+                  1200: {
+                      items: 4
+                  }
+              }
+          })
+      })
+  </script>
+  <!-- //for services carousel slider -->
+
+  <!-- theme switch js (light and dark)-->
+  <script src="assets/js/theme-change.js"></script>
+  <!-- //theme switch js (light and dark)-->
+
+  <!-- MENU-JS -->
+  <script>
+      $(window).on("scroll", function () {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 80) {
+              $("#site-header").addClass("nav-fixed");
+          } else {
+              $("#site-header").removeClass("nav-fixed");
+          }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+          $("header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+          if ($(window).width() > 991) {
+              $("header").removeClass("active");
+          }
+          $(window).on("resize", function () {
+              if ($(window).width() > 991) {
+                  $("header").removeClass("active");
+              }
+          });
+      });
+  </script>
+  <!-- //MENU-JS -->
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+      $(function () {
+          $('.navbar-toggler').click(function () {
+              $('body').toggleClass('noscroll');
+          })
+      });
+  </script>
+  <!-- //disable body scroll which navbar is in active -->
+
+  <script>
+    function updatePrice(row) {
+    var select = document.getElementById("options" + row);
+    var price = document.getElementById("price" + row);
+    var newPrice = select.options[select.selectedIndex].value;
+    price.innerHTML = newPrice;
+  }
+  </script>
+  
+  <!-- bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- //bootstrap -->
+  <!-- //Js scripts -->
+    </html>
