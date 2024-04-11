@@ -6,7 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A dental clinic in Jomboy, Samarkand, Uzbekistan. We offer from basic services to specialized services like therapeutic, orthopedic, and surgical dentistry. The clinic is committed to high-quality care and radiation safety.">
+	<meta name="keywords" content="pozitiv denta, dental klinika, tish shifokori, stomatologiya, stomatologik klinika, pozitiv denta stomatologik klinikasi, jomboy zubnoy, jomboy tumani stomatologik klinika, samarqand tish, samarkand dental, jomboy implant, ortondika, terapivtik stomatologiya, xirurgik stomatologiya">
+	<meta property="og:title" content=Pozitiv Denta | Tishlaringiz Sog'lig'i>
+    <meta property="og:site_name" content=Pozitiv Denta>
+    <meta property="og:url" content=https://pozitiv-denta.uz>
+    <meta property="og:description" content=A dental clinic in Jomboy, Samarkand, Uzbekistan. We offer from basic services to specialized services like therapeutic, orthopedic, and surgical dentistry. The clinic is committed to high-quality care and radiation safety.>
+    <meta property="og:type" content=website>
+    <meta property="og:image" content=https://pozitiv-denta.uz/assets/images/banner1.jpg>
+	<meta property="og:image" content=https://pozitiv-denta.uz/assets/images/banner4.jpg>
+	<meta property="og:image" content=https://pozitiv-denta.uz/assets/images/bg1.jpg>
     <title>Pozitiv Denta | Tishlaringiz Sog'ligi</title>
+	<link rel="canonical" href="pozitiv-denta.uz" />
 	<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="alternate icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <!-- google font -->
@@ -1025,8 +1035,17 @@ uzEnSwitcher.addEventListener('click', function () {
 </script>
      <!-//lang switcher->
 -->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
 
-    <!-- cursor -->
+<!-- cursor -->
     <script>
     document.addEventListener('mousedown', function() {
         document.body.style.cursor = "url('assets/images/cursorDown.png'), auto";
@@ -1037,16 +1056,6 @@ uzEnSwitcher.addEventListener('click', function () {
       });
     </script>
     <!-- //cursor -->
-
-    <!-- disable body scroll which navbar is in active -->
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!-- //disable body scroll which navbar is in active -->
 
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
