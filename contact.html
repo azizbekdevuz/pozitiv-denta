@@ -1,15 +1,14 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dentition - Medical Category Bootstrap Responsive Website Template - Contact : W3Layouts</title>
+	<meta name="description" content="A dental clinic in Jomboy, Samarkand, Uzbekistan. We offer from basic services to specialized services like therapeutic, orthopedic, and surgical dentistry. The clinic is committed to high-quality care and radiation safety.">
+    <title>Pozitiv Denta | Tishlaringiz Sog'ligi</title>
+	<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <!-- google font -->
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -23,7 +22,7 @@ Author URL: http://w3layouts.com
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <i class="fas fa-tooth"></i>Dentition
+                    <i class="fas fa-tooth"></i>Pozitiv Denta
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -34,20 +33,33 @@ Author URL: http://w3layouts.com
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto me-2 my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" data-i18n="home" href="index.html">Bosh Bo'lim</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" data-i18n="srvcs" href="services.html">Xizmatlar</a>
+                            <div class="dropdown-content">
+                                <!--<ul>
+                                    <li> <a href="consultation.html" data-i18n="getCnslt">Get a consultation</a> </li>
+                                    <li> <a href="services.html" data-i18n="regSrvc">Register a service</a> </li>
+                                </ul>-->
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link" href="consultingZone.html" data-i18n="consZone">Konsultatsiya Zonasi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
+                            <a class="nav-link" href="newsSales.html" data-i18n="newsSale">Yangiliklar & Chegirmalar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html" data-i18n="contact">Bog'lanish</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" data-i18n="about">Biz haqimizda</a>
                         </li>
                     </ul>
                     <form action="#error" method="GET" class="d-flex search-header">
-                        <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
+                        <!--<button id="languageToggle" onclick="toggleLanguage()">O`zbek tili</button>-->
+                        <input class="form-control" type="search" placeholder="Qidiruv..." aria-label="Search"
                             required>
                         <button class="btn btn-style" type="submit"><i class="fas fa-search"></i></button>
                     </form>
@@ -76,10 +88,10 @@ Author URL: http://w3layouts.com
     <section class="inner-banner py-5">
         <div class="w3l-breadcrumb py-lg-5">
             <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">Contact Us</h4>
+                <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">Bog'lanish</h4>
                 <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right mx-2"></i>Contact</li>
+                    <li><a href="index.html">Bosh Bo'lim</a></li>
+                    <li class="active"><i class="fas fa-angle-right mx-2"></i>Bog'lanish</li>
                 </ul>
             </div>
         </div>
@@ -89,51 +101,51 @@ Author URL: http://w3layouts.com
     <!-- contact section -->
     <section class="w3l-contact-11 py-5" id="contact">
         <div class="container py-md-5 py-4">
-            <h3 class="title-style text-center mb-5"><span>Contact </span> Us</h3>
+            <h3 class="title-style text-center mb-5">Biz bilan <span>Bog'lanish</span></h3>
             <div class="row text-center mb-5 pb-lg-5 pb-sm-4">
                 <div class="col-lg-3 col-sm-6 contact-info">
                     <i class="fas fa-map-marked-alt"></i>
-                    <h4>Location</h4>
-                    <p>London, 235 Terry, 10001</p>
+                    <h4>Manzil</h4>
+                    <p>Galakapa 3, Jomboy tumani markazi</p>
                 </div>
                 <div class="col-lg-3 col-sm-6 contact-info mt-md-0 mt-4">
                     <i class="fas fa-headset"></i>
-                    <h4>Phone</h4>
-                    <p><a href="tel:+44 987 654 321">+44 123 984 439</a></p>
+                    <h4>Telefon Raqam</h4>
+                    <p><a href="tel:+998 97 100 01 03">+998 (97) 100-01-03</a></p>
                 </div>
                 <div class="col-lg-3 col-sm-6 contact-info mt-lg-0 mt-4">
                     <i class="fas fa-envelope-open-text"></i>
-                    <h4>Email</h4>
-                    <p><a href="mailto:mail@example.com" class="email">mail@example.com</a></p>
+                    <h4>E-pochta</h4>
+                    <p><a href="mailto:norkuzievural@gmail.com" class="email">norkuzievural@gmail.com</a></p>
                 </div>
                 <div class="col-lg-3 col-sm-6 contact-info mt-lg-0 mt-4">
                     <i class="fas fa-user-clock"></i>
-                    <h4>Working Hours</h4>
-                    <p>24 Hours</p>
+                    <h4>Ish Vaqti</h4>
+                    <p>08:00 - 22:00</p>
                 </div>
             </div>
             <div class="form-inner-cont mx-auto" style="max-width:800px">
                 <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
                     <div class="row align-form-map">
                         <div class="col-sm-6 form-input">
-                            <input type="text" name="w3lName" id="w3lName" placeholder="Name" />
+                            <input type="text" name="w3lName" id="w3lName" placeholder="Ismingiz" />
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Email" required="" />
+                            <input type="email" name="w3lSender" id="w3lSender" placeholder="E-pochta manziilngiz" required="" />
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="text" name="w3lSubect" placeholder="Subject" class="contact-input">
+                            <input type="text" name="w3lSubect" placeholder="Maqsadingiz" class="contact-input">
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="number" name="w3lPhone" placeholder="Phone Number" class="contact-input">
+                            <input type="number" name="w3lPhone" placeholder="Telefon Raqamingiz" class="contact-input">
                         </div>
                     </div>
                     <div class="form-input">
-                        <textarea placeholder="Message" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                        <textarea placeholder="Xabaringiz" name="w3lMessage" id="w3lMessage" required=""></textarea>
                     </div>
                     <div class="submit text-right">
-                        <button type="submit" class="btn btn-style">Submit
-                            Message</button>
+                        <button type="submit" class="btn btn-style">Xabarni
+                            Yuborish</button>
                     </div>
                 </form>
             </div>
@@ -141,9 +153,7 @@ Author URL: http://w3layouts.com
     </section>
     <!-- map -->
     <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl"
-            width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12279.740231098283!2d67.0976577!3d39.6961641!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d251fa1c4ca95%3A0xd3d9d8c85d319694!2s%22Pozitiv%20Denta%22%20Stomatologik%20Klinikasi!5e0!3m2!1suz!2skr!4v1696667095725!5m2!1suz!2skr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!-- //contact section -->
 
@@ -153,45 +163,43 @@ Author URL: http://w3layouts.com
             <div class="container pt-md-4">
                 <div class="row footer-top-29">
                     <div class="col-md-5 footer-list-29 pe-xl-5">
-                        <h6 class="footer-title-29">Contact Info </h6>
-                        <p class="mb-2 pe-xl-5">Address : Dentition, 10001, 5th Avenue, #06 lane street, NY - 62617.
-                        </p>
-                        <p class="mb-2">Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
-                        <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                        <h6 class="footer-title-29" data-i18n="contactInf">Bog'lanish </h6>
+                        <p class="mb-2 pe-xl-5" data-i18n="address">Manzil: Galakapa 3, Jomboy tumani markazi, Samarqand viloyati</p>
+                        <p class="mb-2" data-i18n="phoneNum">Telefon Raqam: <a href="tel:+998(97) 100 0103">+998 (97) 100
+                                01-03</a></p>
+                        <p class="mb-2" data-i18n="email">E-pochta: <a
+                                href="mailto:norkuzievural@gmail.com">norkuzievural@gmail.com</a></p>
                     </div>
                     <div class="col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
                         <ul>
-                            <h6 class="footer-title-29">About</h6>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="about.html">Special Offers</a></li>
-                            <li><a href="about.html">Orthodontics</a></li>
-                            <li><a href="about.html">About Us</a></li>
+                            <h6 class="footer-title-29" data-i18n="about">Biz haqimizda</h6>
+                            <li><a href="services.html" data-i18n="services">Xizmatlar</a></li>
+                            <li><a href="fy.html" data-i18n="forYou">Siz uchun</a></li>
+                            <li><a href="newsSales.html#discount" data-i18n="cashback">Keshbek olish</a></li>
+                            <li><a href="about.html" data-i18n="aboutUs">Biz haqimizda</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-3 col-4 ps-lg-5 ps-md-4 footer-list-29 mt-md-0 mt-4">
                         <ul>
-                            <h6 class="footer-title-29">Explore</h6>
-                            <li><a href="#blog">Blog Posts</a></li>
-                            <li><a href="#privacy">Privacy policy</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="#license">License & uses</a></li>
+                            <h6 class="footer-title-29" data-i18n="explore">Ko'rib Chiqish</h6>
+                            <li><a href="blogs.html" data-i18n="blogPsts">Blog Postlar</a></li>
+                            <li><a href="comforts.html" data-i18n="comforts">Qulayliklar</a></li>
+                            <li><a href="contact.html" data-i18n="contactUs">Biz bilan bog'lanish</a></li>
+                            <li><a href="#license" data-i18n="license">Litsenziyalar</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
-                        <ul>
-                            <h6 class="footer-title-29">Dentition</h6>
-                            <li><a href="#doctor">Dr. John Doe</a></li>
-                            <li><a href="#doctor">Dr. Martin Ker</a></li>
-                            <li><a href="#doctor">Dr. Alexander</a></li>
-                            <li><a href="#doctor">Dr. Eliz Wilson</a></li>
-                        </ul>
-                    </div>
+                    <!--<div class="col-lg-2 col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                            <ul>
+                                <h6 class="footer-title-29">Meet the team</h6>
+                                <li><a href="#doctor">Dr. Norkuziev Ural</a></li>
+                                <li><a href="#doctor">Dr. Dilmurod</a></li>
+                                <li><a href="#doctor">Dr. Jasur</a></li>
+                                <li><a href="#doctor">Dr. Jahongir</a></li>
+                            </ul>
+                        </div>-->
                 </div>
                 <!-- copyright -->
-                <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">© 2021 Dentition. All rights reserved. Design by
-                    <a href="https://w3layouts.com/" target="_blank">
-                        W3Layouts</a></p>
-                <!-- //copyright -->
+                <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">© 2023 Pozitiv Denta.<!-- //copyright -->
             </div>
         </div>
     </footer>
